@@ -28,6 +28,7 @@ textarea {
     letter-spacing: 1px;
     word-spacing: 1px;
     tab-size: 8;
+    resize: none;
 }
 
 .keyboard {
