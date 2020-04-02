@@ -50,10 +50,11 @@ textarea {
 }
 
 .keyboard::after {
-    content: 'Change language: Ctrl+Alt | OS: Windows';
+    content: 'Для переключения языка комбинация: Сtrl + Alt \0a Клавиатура создана в операционной системе Windows \0a Если у вас OS: Mac и что-то не работает или работает некорректно, свяжитесь со мной пожалуйста, или оставьте свои контакты)';
     position: absolute;
-    top: 632px;
+    top: 604px;
     text-shadow: 0px 0px 10px #000428;
+    white-space: pre;
 }
 
 .keyboard__row {
