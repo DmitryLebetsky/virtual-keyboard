@@ -993,4 +993,9 @@ window.onload = function onLoad() {
   document.addEventListener('mousemove', (e) => {
     e.preventDefault();
   });
+  // focus textarea
+  document.getElementById('textarea').focus();
+  document.getElementById('textarea').addEventListener('blur', (event) => {
+    event.target.focus();
+  })
 };
