@@ -997,5 +997,5 @@ window.onload = function onLoad() {
   document.getElementById('textarea').focus();
   document.getElementById('textarea').addEventListener('blur', (event) => {
     event.target.focus();
-  })
+  });
 };
